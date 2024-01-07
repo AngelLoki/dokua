@@ -1,44 +1,46 @@
 {
-  "colors": {
-    "red": {
-      "300": {
-        "value": "#FCA5A5",
-        "type": "color"
-      },
-      "500": {
-        "value": "#EF4444",
-        "type": "color"
-      },
-      "700": {
-        "value": "#B91C1C",
-        "type": "color"
+  "dokua-token": {
+    "dh": {
+      "sys": {
+        "primary": {
+          "value": "#1A77D2",
+          "type": "color"
+        },
+        "on-primary": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "primary-container": {
+          "value": "#E8F1FA",
+          "type": "color"
+        },
+        "on-primary-container": {
+          "value": "#05172A",
+          "type": "color"
+        },
+        "primary-fixed": {
+          "value": "#75ADE4",
+          "type": "color"
+        },
+        "primary-fixed-dim": {
+          "value": "#F8FBFE",
+          "type": "color"
+        },
+        "on-primary-fixed": {
+          "value": "#0A2F54",
+          "type": "color"
+        },
+        "on-primary-fixed-variant": {
+          "value": "#1A77D2",
+          "type": "color"
+        }
       }
-    },
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "white": {
-      "value": "#ffffff",
-      "type": "color"
     }
   },
-  "spacing": {
-    "sm": {
-      "value": 4,
-      "type": "spacing"
-    },
-    "md": {
-      "value": 8,
-      "type": "spacing"
-    },
-    "lg": {
-      "value": 16,
-      "type": "spacing"
-    },
-    "xl": {
-      "value": 32,
-      "type": "spacing"
-    }
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "dokua-token"
+    ]
   }
 }
