@@ -1,16 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Wed, 02 Feb 2022 08:51:10 GMT
+ * Generated on Mon, 22 Jan 2024 17:33:47 GMT
  */
 
 :root {
-  --colors-red-300: #FCA5A5;
-  --colors-red-500: #EF4444;
-  --colors-red-700: #B91C1C;
-  --colors-black: #000000;
-  --colors-white: #ffffff;
-  --spacing-sm: 4;
-  --spacing-md: 8;
-  --spacing-lg: 16;
-  --spacing-xl: 32;
+  --dh-sys-primary: #1A77D2;
+  --dh-sys-on-primary: #ffffff;
+  --dh-sys-primary-container: #E8F1FA;
+  --dh-sys-on-primary-container: #05172A;
+  --dh-sys-primary-fixed: #75ADE4;
+  --dh-sys-primary-fixed-dim: #F8FBFE;
+  --dh-sys-on-primary-fixed: #0A2F54;
+  --dh-sys-on-primary-fixed-variant: #1A77D2;
+  --dh-sys-surface: #ffffff;
+  --token-set-order-0: dokua-token;
 }
