@@ -1,46 +1,48 @@
 {
-  "dokua-token": {
-    "dh": {
-      "sys": {
-        "primary": {
-          "value": "#1A77D2",
-          "type": "color"
-        },
-        "on-primary": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "primary-container": {
-          "value": "#E8F1FA",
-          "type": "color"
-        },
-        "on-primary-container": {
-          "value": "#05172A",
-          "type": "color"
-        },
-        "primary-fixed": {
-          "value": "#75ADE4",
-          "type": "color"
-        },
-        "primary-fixed-dim": {
-          "value": "#F8FBFE",
-          "type": "color"
-        },
-        "on-primary-fixed": {
-          "value": "#0A2F54",
-          "type": "color"
-        },
-        "on-primary-fixed-variant": {
-          "value": "#1A77D2",
-          "type": "color"
-        }
+  "dh": {
+    "sys": {
+      "primary": {
+        "value": "#1A77D2",
+        "type": "color"
+      },
+      "on-primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "primary-container": {
+        "value": "#E8F1FA",
+        "type": "color"
+      },
+      "on-primary-container": {
+        "value": "#05172A",
+        "type": "color"
+      },
+      "primary-fixed": {
+        "value": "#75ADE4",
+        "type": "color"
+      },
+      "primary-fixed-dim": {
+        "value": "#F8FBFE",
+        "type": "color"
+      },
+      "on-primary-fixed": {
+        "value": "#0A2F54",
+        "type": "color"
+      },
+      "on-primary-fixed-variant": {
+        "value": "#1A77D2",
+        "type": "color"
+      },
+      "surface": {
+        "value": "#ffffff",
+        "type": "color"
       }
     }
   },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "dokua-token"
-    ]
+  "tokenSetOrder": {
+    "0": {
+      "value": "dokua-token",
+      "type": "other"
+    }
   }
 }
