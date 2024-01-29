@@ -10,8 +10,8 @@
   --dts-sys-red: #ff0000;
   --dts-body-large-font-family: Roboto;
   --dts-body-large-font-weight: Regular;
-  --dts-body-large-line-height: 24;
-  --dts-body-large-font-size: 16;
+  --dts-body-large-line-height: 24px;
+  --dts-body-large-font-size: 16px;
   --dts-body-large-letter-spacing: 0%;
   --dts-body-large-paragraph-spacing: 0;
   --dts-body-large-paragraph-indent: 0px;
@@ -36,7 +36,7 @@ body {
   line-height: var(--dts-body-large-line-height);
 }
 
-button #primary {
+#primary {
   background-color: var(--dts-sys-blue);
   color: var(--dts-sys-white);
   border-radius: 8px;
@@ -44,7 +44,7 @@ button #primary {
   padding: 8px 16px;
 }
 
-#primary-button:hover {
+#primary:hover {
   background-color: var(--dts-sys-black);
   color: var(--dts-sys-white);
 }
