@@ -29,7 +29,9 @@
   --token-set-order-0: dts;
 }
 
-#firstParagraph {
+#primary-button {
   background-color: var(--dts-sys-blue);
   color: var(--dts-sys-white);
+  border-radius: 8px;
+  border: 0px;
 }
