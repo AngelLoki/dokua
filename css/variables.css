@@ -29,7 +29,14 @@
   --token-set-order-0: dts;
 }
 
-#primary-button {
+body {
+  font-family: var(--dts-body-large-font-family);
+  font-weight: var(--dts-body-large-weight);
+  font-size: var(--dts-body-large-font-size);
+  line-height: var(--dts-body-large-line-height);
+}
+
+button#primary {
   background-color: var(--dts-sys-blue);
   color: var(--dts-sys-white);
   border-radius: 8px;
