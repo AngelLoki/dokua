@@ -36,7 +36,7 @@ body {
   line-height: var(--dts-body-large-line-height);
 }
 
-button#primary {
+button #primary {
   background-color: var(--dts-sys-blue);
   color: var(--dts-sys-white);
   border-radius: 8px;
