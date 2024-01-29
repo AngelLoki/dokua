@@ -28,3 +28,8 @@
   --paragraph-indent-0: 0px;
   --token-set-order-0: dts;
 }
+
+#firstParagraph {
+  background-color: var(--dts-sys-blue);
+  color: var(--dts-sys-white);
+}
