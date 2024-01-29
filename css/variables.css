@@ -36,3 +36,8 @@
   border: 0px;
   padding: 8px 16px;
 }
+
+#primary-button:hover {
+  background-color: var(--dts-sys-black);
+  color: var(--dts-sys-white);
+}
