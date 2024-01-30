@@ -3,7 +3,7 @@ body {
 
 #primary {
   background-color: var(--dts-sys-primary);
-  color: var(--dts-sys-on-prymary);
+  color: var(--dts-sys-on-primary);
   border-radius: 8px;
   border: 0px;
   padding: 8px 16px;
@@ -11,5 +11,18 @@ body {
 
 #primary:hover {
   background-color: var(--dts-sys-on-surface);
-  color: var(--dts-sys-on-prymary);
+  color: var(--dts-sys-on-primary);
+}
+
+#danger {
+  background-color: var(--dts-sys-danger);
+  color: var(--dts-sys-on-primary);
+  border-radius: 8px;
+  border: 0px;
+  padding: 8px 16px;
+}
+
+#danger:hover {
+  background-color: var(--dts-sys-on-surface);
+  color: var(--dts-sys-on-primary);
 }
