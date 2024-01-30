@@ -1,30 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Tue, 23 Jan 2024 11:46:21 GMT
+ * Generated on Tue, 30 Jan 2024 08:40:58 GMT
  */
 
 :root {
-  --dts-sys-white: #ffffff;
-  --dts-sys-black: #000000;
-  --dts-sys-blue: #0000ff;
-  --dts-sys-red: #ff0000;
-  --dts-body-large-font-family: Roboto;
-  --dts-body-large-font-weight: Regular;
-  --dts-body-large-line-height: 24px;
-  --dts-body-large-font-size: 16px;
-  --dts-body-large-letter-spacing: 0%;
-  --dts-body-large-paragraph-spacing: 0;
-  --dts-body-large-paragraph-indent: 0px;
-  --dts-body-large-text-case: none;
-  --dts-body-large-text-decoration: none;
-  --font-families-roboto: Roboto;
-  --line-heights-0: 24;
-  --font-weights-roboto-0: Regular;
-  --font-size-0: 16;
-  --letter-spacing-0: 0%;
-  --paragraph-spacing-0: 0;
-  --text-case-none: none;
-  --text-decoration-none: none;
-  --paragraph-indent-0: 0px;
+  --dts-sys-on-primary: #ffffff;
+  --dts-sys-on-surface: #181c22;
+  --dts-sys-primary: #1a77d2;
+  --dts-sys-danger: #ff0000;
   --token-set-order-0: dts;
 }
