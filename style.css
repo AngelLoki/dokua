@@ -1,6 +1,34 @@
 body {
   background-color: var(--dts-sys-surface-container);
   color: var(--dts-sys-on-surface);
+  font-family: var(--dts-body-large-font-family);
+  font-weight: var(--dts-body-large-font-weight);
+  font-size: var(--dts-body-large-font-size);
+  line-height: var(--dts-body-large-line-height);
+}
+
+h1 {
+  color: var(--dts-sys-on-surface);
+  font-family: var(--dts-body-large-font-family);
+  font-weight: var(--dts-body-large-font-weight);
+  font-size: var(--dts-body-large-font-size);
+  line-height: var(--dts-body-large-line-height);
+}
+
+p {
+  color: var(--dts-sys-on-surface);
+  font-family: var(--dts-body-large-font-family);
+  font-weight: var(--dts-body-large-font-weight);
+  font-size: var(--dts-body-large-font-size);
+  line-height: var(--dts-body-large-line-height);
+}
+
+label {
+  display: block;
+  font-family: var(--dts-body-large-font-family);
+  font-weight: var(--dts-body-large-font-weight);
+  font-size: var(--dts-body-large-font-size);
+  line-height: var(--dts-body-large-line-height);
 }
 
 
@@ -10,7 +38,7 @@ button {
   padding: var(--padding-null);
 }
 
-button div {
+button label {
   padding-left: var(--padding-xl);
   padding-right: var(--padding-xl);
   padding-top: var(--padding-lg);
@@ -19,11 +47,11 @@ button div {
   border: var(--border-null-width);
 }
 
-button div:hover{
+button label:hover{
   background-color: var(--dts-state-layers-hover-sm);
 }
 
-button div:active{
+button label:active{
   background-color: var(--dts-state-layers-active-md);
 }
 
@@ -32,12 +60,17 @@ button div:active{
   color: var(--dts-sys-on-primary);
 }
 
-#danger {
-  background-color: var(--dts-sys-danger);
-  color: var(--dts-sys-on-danger);
+#success {
+  background-color: var(--dts-sys-success);
+  color: var(--dts-sys-on-success);
 }
 
 #warning {
   background-color: var(--dts-sys-warning);
   color: var(--dts-sys-on-warning);
+}
+
+#danger {
+  background-color: var(--dts-sys-danger);
+  color: var(--dts-sys-on-danger);
 }

@@ -9,6 +9,14 @@
         "value": "#ffffff",
         "type": "color"
       },
+      "success": {
+        "value": "#008D46",
+        "type": "color"
+      },
+      "on-success": {
+        "value": "#ffffff",
+        "type": "color"
+      },
       "warning": {
         "value": "#e59000",
         "type": "color"
@@ -37,11 +45,53 @@
     "state-layers": {
       "hover-sm": {
         "value": "#00000014",
-        "type": "color"
+        "type": "color",
+        "oldValue": "rgba(0,0,0,0.08)"
       },
       "active-md": {
         "value": "#00000029",
-        "type": "color"
+        "type": "color",
+        "oldValue": "rgba(0,0,0,0.16)"
+      }
+    },
+    "body": {
+      "large": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "24px",
+          "type": "lineHeights"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "value": "0px",
+          "type": "paragraphIndent"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
       }
     }
   },
@@ -78,6 +128,44 @@
   "padding-xl": {
     "value": "24px",
     "type": "spacing"
+  },
+  "line-heights-lg": {
+    "value": "24px",
+    "type": "lineHeights"
+  },
+  "font-weights-regular": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "font-size-lg": {
+    "value": "16px",
+    "type": "fontSizes"
+  },
+  "letter-spacing-null": {
+    "value": "0%",
+    "type": "letterSpacing"
+  },
+  "paragraph-spacing-null": {
+    "value": 0,
+    "type": "paragraphSpacing"
+  },
+  "text-case-none": {
+    "value": "none",
+    "type": "textCase"
+  },
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  },
+  "paragraph-indent-null": {
+    "value": "0px",
+    "type": "dimension"
+  },
+  "font-families-roboto": {
+    "value": "Roboto",
+    "type": "fontFamilies"
   },
   "tokenSetOrder": {
     "0": {
