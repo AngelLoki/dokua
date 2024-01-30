@@ -20,7 +20,11 @@ button div {
 }
 
 button div:hover{
-  background-color: var(--dts-state-layers-hover-opacity-sm);
+  background-color: var(--dts-state-layers-hover-sm);
+}
+
+button div:active{
+  background-color: var(--dts-state-layers-active-md);
 }
 
 #primary {

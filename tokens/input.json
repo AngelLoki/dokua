@@ -35,11 +35,13 @@
       }
     },
     "state-layers": {
-      "hover": {
-        "opacity-sm": {
-          "value": "#00000014",
-          "type": "color"
-        }
+      "hover-sm": {
+        "value": "#00000014",
+        "type": "color"
+      },
+      "active-md": {
+        "value": "#00000029",
+        "type": "color"
       }
     }
   },
