@@ -3,18 +3,22 @@ body {
   color: var(--dts-sys-on-surface);
 }
 
+button {
+  border-radius: var(--radius-sm);
+  border: var(--border-null-width);
+  padding: var(--padding-null);
+}
+
+button div {
+  padding: var(--padding-lg);
+  border-radius: var(--radius-sm);
+  border: var(--border-null-width);
+}
+
+
 #primary {
   background-color: var(--dts-sys-primary);
   color: var(--dts-sys-on-primary);
-  border-radius: 8px;
-  border: 0px;
-  padding: 0;
-}
-
-#primary div{
-  padding: 16px 24px;
-  border-radius: 8px;
-  border: 0px;
 }
 
 #primary div:hover {
@@ -26,15 +30,6 @@ body {
 #danger {
   background-color: var(--dts-sys-danger);
   color: var(--dts-sys-on-danger);
-  border-radius: 8px;
-  border: 0px;
-  padding: 0;
-}
-
-#danger div{
-  padding: 16px 24px;
-  border-radius: 8px;
-  border: 0px;
 }
 
 #danger div:hover {
@@ -46,15 +41,6 @@ body {
 #warning {
   background-color: var(--dts-sys-warning);
   color: var(--dts-sys-on-warning);
-  border-radius: 8px;
-  border: 0px;
-  padding: 0;
-}
-
-#warning div{
-  padding: 16px 24px;
-  border-radius: 8px;
-  border: 0px;
 }
 
 #warning div:hover {
