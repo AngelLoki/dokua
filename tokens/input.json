@@ -40,12 +40,6 @@
           "value": "#00000014",
           "type": "color"
         }
-      },
-      "pressed": {
-        "opacity-sm": {
-          "value": "#00000029",
-          "type": "color"
-        }
       }
     }
   },

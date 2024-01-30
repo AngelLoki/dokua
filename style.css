@@ -23,11 +23,6 @@ button div:hover{
   background-color: var(--dts-state-layers-hover-opacity-sm);
 }
 
-button div:focus{
-  background-color: var(--dts-state-layers-pressed-opacity-sm);
-}
-
-
 #primary {
   background-color: var(--dts-sys-primary);
   color: var(--dts-sys-on-primary);
