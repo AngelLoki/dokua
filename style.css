@@ -16,7 +16,7 @@ body {
 
 #danger {
   background-color: var(--dts-sys-danger);
-  color: var(--dts-sys-on-primary);
+  color: var(--dts-sys-on-danger);
   border-radius: 8px;
   border: 0px;
   padding: 8px 16px;

@@ -1,20 +1,24 @@
 {
   "dts": {
     "sys": {
+      "primary": {
+        "value": "#1a77d2",
+        "type": "color"
+      },
       "on-primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "danger": {
+        "value": "#ff0000",
+        "type": "color"
+      },
+      "on-danger": {
         "value": "#ffffff",
         "type": "color"
       },
       "on-surface": {
         "value": "#181c22",
-        "type": "color"
-      },
-      "primary": {
-        "value": "#1a77d2",
-        "type": "color"
-      },
-      "danger": {
-        "value": "#ff0000",
         "type": "color"
       }
     }

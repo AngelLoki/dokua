@@ -1,12 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 Jan 2024 08:40:58 GMT
+ * Generated on Tue, 30 Jan 2024 08:49:18 GMT
  */
 
 :root {
-  --dts-sys-on-primary: #ffffff;
-  --dts-sys-on-surface: #181c22;
   --dts-sys-primary: #1a77d2;
+  --dts-sys-on-primary: #ffffff;
   --dts-sys-danger: #ff0000;
+  --dts-sys-on-danger: #ffffff;
+  --dts-sys-on-surface: #181c22;
   --token-set-order-0: dts;
 }
