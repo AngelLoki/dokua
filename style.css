@@ -12,7 +12,7 @@ body {
 }
 
 #primary div{
-  padding: 8px 16px;
+  padding: 16px 24px;
   border-radius: 8px;
   border: 0px;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 #danger div{
-  padding: 8px 16px;
+  padding: 16px 24px;
   border-radius: 8px;
   border: 0px;
 }
@@ -40,4 +40,24 @@ body {
 #danger div:hover {
   background-color: var(--dts-state-layers-on-danger-opacity-sm);
   color: var(--dts-sys-on-danger);
+}
+
+
+#warning {
+  background-color: var(--dts-sys-warning);
+  color: var(--dts-sys-on-warning);
+  border-radius: 8px;
+  border: 0px;
+  padding: 0;
+}
+
+#warning div{
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 0px;
+}
+
+#warning div:hover {
+  background-color: var(--dts-state-layers-on-warning-opacity-sm);
+  color: var(--dts-sys-on-warning);
 }

@@ -24,6 +24,14 @@
       "on-surface": {
         "value": "#181c22",
         "type": "color"
+      },
+      "warning": {
+        "value": "#e59000",
+        "type": "color"
+      },
+      "on-warning": {
+        "value": "#ffffff",
+        "type": "color"
       }
     },
     "state-layers": {
@@ -34,6 +42,12 @@
         }
       },
       "on-danger": {
+        "opacity-sm": {
+          "value": "#00000014",
+          "type": "color"
+        }
+      },
+      "on-warning": {
         "opacity-sm": {
           "value": "#00000014",
           "type": "color"
