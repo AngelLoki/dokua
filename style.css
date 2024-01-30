@@ -11,9 +11,20 @@ button {
 }
 
 button div {
-  padding: var(--padding-lg);
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+  padding-top: var(--padding-lg);
+  padding-bottom: var(--padding-lg);
   border-radius: var(--radius-sm);
   border: var(--border-null-width);
+}
+
+button div:hover{
+  background-color: var(--dts-state-layers-hover-opacity-sm);
+}
+
+button div:focus{
+  background-color: var(--dts-state-layers-pressed-opacity-sm);
 }
 
 
@@ -22,29 +33,12 @@ button div {
   color: var(--dts-sys-on-primary);
 }
 
-#primary div:hover {
-  background-color: var(--dts-state-layers-on-primary-opacity-sm);
-  color: var(--dts-sys-on-primary);
-}
-
-
 #danger {
   background-color: var(--dts-sys-danger);
   color: var(--dts-sys-on-danger);
 }
 
-#danger div:hover {
-  background-color: var(--dts-state-layers-on-danger-opacity-sm);
-  color: var(--dts-sys-on-danger);
-}
-
-
 #warning {
   background-color: var(--dts-sys-warning);
-  color: var(--dts-sys-on-warning);
-}
-
-#warning div:hover {
-  background-color: var(--dts-state-layers-on-warning-opacity-sm);
   color: var(--dts-sys-on-warning);
 }

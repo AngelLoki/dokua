@@ -35,21 +35,15 @@
       }
     },
     "state-layers": {
-      "on-primary": {
+      "hover": {
         "opacity-sm": {
           "value": "#00000014",
           "type": "color"
         }
       },
-      "on-danger": {
+      "pressed": {
         "opacity-sm": {
-          "value": "#00000014",
-          "type": "color"
-        }
-      },
-      "on-warning": {
-        "opacity-sm": {
-          "value": "#00000014",
+          "value": "#00000029",
           "type": "color"
         }
       }
@@ -84,6 +78,10 @@
       "value": 0,
       "type": "dimension"
     }
+  },
+  "padding-xl": {
+    "value": "24px",
+    "type": "spacing"
   },
   "tokenSetOrder": {
     "0": {
