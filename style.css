@@ -8,23 +8,36 @@ body {
   color: var(--dts-sys-on-primary);
   border-radius: 8px;
   border: 0px;
-  padding: 8px 16px;
+  padding: 0;
 }
 
-#primary:hover {
-  background-color: var(--dts-sys-on-surface);
+#primary div{
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 0px;
+}
+
+#primary div:hover {
+  background-color: var(--dts-state-layers-on-primary-opacity-sm);
   color: var(--dts-sys-on-primary);
 }
+
 
 #danger {
   background-color: var(--dts-sys-danger);
   color: var(--dts-sys-on-danger);
   border-radius: 8px;
   border: 0px;
-  padding: 8px 16px;
+  padding: 0;
 }
 
-#danger:hover {
-  background-color: var(--dts-sys-on-surface);
-  color: var(--dts-sys-on-primary);
+#danger div{
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 0px;
+}
+
+#danger div:hover {
+  background-color: var(--dts-state-layers-on-danger-opacity-sm);
+  color: var(--dts-sys-on-danger);
 }

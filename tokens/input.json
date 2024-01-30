@@ -17,13 +17,27 @@
         "value": "#ffffff",
         "type": "color"
       },
-      "on-surface": {
-        "value": "#181c22",
-        "type": "color"
-      },
       "surface-container": {
         "value": "#f5f5f5",
         "type": "color"
+      },
+      "on-surface": {
+        "value": "#181c22",
+        "type": "color"
+      }
+    },
+    "state-layers": {
+      "on-primary": {
+        "opacity-sm": {
+          "value": "#00000014",
+          "type": "color"
+        }
+      },
+      "on-danger": {
+        "opacity-sm": {
+          "value": "#00000014",
+          "type": "color"
+        }
       }
     }
   },
