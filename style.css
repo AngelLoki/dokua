@@ -1,4 +1,6 @@
 body {
+  background-color: var(--dts-sys-surface-container);
+  color: var(--dts-sys-on-surface);
 }
 
 #primary {
