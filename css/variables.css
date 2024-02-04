@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 04 Feb 2024 10:55:49 GMT
+ * Generated on Sun, 04 Feb 2024 11:37:07 GMT
  */
 
 :root {
@@ -34,6 +34,69 @@
   --dts-label-large-paragraph-indent: 0px;
   --dts-label-large-text-case: none;
   --dts-label-large-text-decoration: none;
+  --dts-heading-xxs-font-family: Roboto;
+  --dts-heading-xxs-font-weight: Regular;
+  --dts-heading-xxs-line-height: 24px;
+  --dts-heading-xxs-font-size: 16px;
+  --dts-heading-xxs-letter-spacing: 0%;
+  --dts-heading-xxs-paragraph-spacing: 0;
+  --dts-heading-xxs-paragraph-indent: 0px;
+  --dts-heading-xxs-text-case: none;
+  --dts-heading-xxs-text-decoration: none;
+  --dts-heading-xs-font-family: Roboto;
+  --dts-heading-xs-font-weight: Regular;
+  --dts-heading-xs-line-height: 28px;
+  --dts-heading-xs-font-size: 20px;
+  --dts-heading-xs-letter-spacing: 0%;
+  --dts-heading-xs-paragraph-spacing: 0;
+  --dts-heading-xs-paragraph-indent: 0px;
+  --dts-heading-xs-text-case: none;
+  --dts-heading-xs-text-decoration: none;
+  --dts-heading-sm-font-family: Roboto;
+  --dts-heading-sm-font-weight: Regular;
+  --dts-heading-sm-line-height: 32px;
+  --dts-heading-sm-font-size: 24px;
+  --dts-heading-sm-letter-spacing: 0%;
+  --dts-heading-sm-paragraph-spacing: 0;
+  --dts-heading-sm-paragraph-indent: 0px;
+  --dts-heading-sm-text-case: none;
+  --dts-heading-sm-text-decoration: none;
+  --dts-heading-md-font-family: Roboto;
+  --dts-heading-md-font-weight: Regular;
+  --dts-heading-md-line-height: 36px;
+  --dts-heading-md-font-size: 28px;
+  --dts-heading-md-letter-spacing: 0%;
+  --dts-heading-md-paragraph-spacing: 0;
+  --dts-heading-md-paragraph-indent: 0px;
+  --dts-heading-md-text-case: none;
+  --dts-heading-md-text-decoration: none;
+  --dts-heading-lg-font-family: Roboto;
+  --dts-heading-lg-font-weight: Regular;
+  --dts-heading-lg-line-height: 40px;
+  --dts-heading-lg-font-size: 32px;
+  --dts-heading-lg-letter-spacing: 0%;
+  --dts-heading-lg-paragraph-spacing: 0;
+  --dts-heading-lg-paragraph-indent: 0px;
+  --dts-heading-lg-text-case: none;
+  --dts-heading-lg-text-decoration: none;
+  --dts-heading-xl-font-family: Roboto;
+  --dts-heading-xl-font-weight: Regular;
+  --dts-heading-xl-line-height: 44px;
+  --dts-heading-xl-font-size: 36px;
+  --dts-heading-xl-letter-spacing: 0%;
+  --dts-heading-xl-paragraph-spacing: 0;
+  --dts-heading-xl-paragraph-indent: 0px;
+  --dts-heading-xl-text-case: none;
+  --dts-heading-xl-text-decoration: none;
+  --dts-heading-xxl-font-family: Roboto;
+  --dts-heading-xxl-font-weight: Regular;
+  --dts-heading-xxl-line-height: 48px;
+  --dts-heading-xxl-font-size: 40px;
+  --dts-heading-xxl-letter-spacing: 0%;
+  --dts-heading-xxl-paragraph-spacing: 0;
+  --dts-heading-xxl-paragraph-indent: 0px;
+  --dts-heading-xxl-text-case: none;
+  --dts-heading-xxl-text-decoration: none;
   --radius-null: 0;
   --radius-xxs: 2px;
   --radius-xs: 4px;
@@ -42,9 +105,24 @@
   --padding-lg: 16px;
   --border-null-width: 0;
   --padding-xl: 24px;
-  --line-heights-lg: 24px;
-  --font-weights-regular: Regular;
-  --font-size-lg: 16px;
+  --line-height-large: 24px;
+  --line-height-xxs: 24px;
+  --line-height-xs: 28px;
+  --line-height-sm: 32px;
+  --line-height-md: 36px;
+  --line-height-lg: 40px;
+  --line-height-xl: 44px;
+  --line-height-xxl: 48px;
+  --font-weight-regular: Regular;
+  --font-weight-medium: Regular;
+  --font-size-large: 16px;
+  --font-size-xxs: 16px;
+  --font-size-xs: 20px;
+  --font-size-sm: 24px;
+  --font-size-md: 28px;
+  --font-size-lg: 32px;
+  --font-size-xl: 36px;
+  --font-size-xxl: 40px;
   --letter-spacing-null: 0%;
   --paragraph-spacing-null: 0;
   --text-case-none: none;
