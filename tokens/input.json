@@ -93,6 +93,46 @@
           "type": "textDecoration"
         }
       }
+    },
+    "label": {
+      "large": {
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "24px",
+          "type": "lineHeights"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "letterSpacing": {
+          "value": "0%",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "value": "0px",
+          "type": "paragraphIndent"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      }
     }
   },
   "radius-null": {
