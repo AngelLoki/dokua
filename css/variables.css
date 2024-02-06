@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 04 Feb 2024 11:37:07 GMT
+ * Generated on Sun, 04 Feb 2024 17:47:37 GMT
  */
 
 :root {
@@ -12,100 +12,27 @@
   --dts-sys-on-warning: #ffffff;
   --dts-sys-danger: #d21a1b;
   --dts-sys-on-danger: #ffffff;
+  --dts-sys-surface: #FFFFFF;
   --dts-sys-surface-container: #f5f5f5;
   --dts-sys-on-surface: #181c22;
+  --dts-sys-on-surface-variant: #5D5E62;
   --dts-state-layers-hover-sm: #00000014;
   --dts-state-layers-active-md: #00000029;
-  --dts-body-large-font-family: Roboto;
-  --dts-body-large-font-weight: Regular;
-  --dts-body-large-line-height: 24px;
-  --dts-body-large-font-size: 16px;
-  --dts-body-large-letter-spacing: 0%;
-  --dts-body-large-paragraph-spacing: 0;
-  --dts-body-large-paragraph-indent: 0px;
-  --dts-body-large-text-case: none;
-  --dts-body-large-text-decoration: none;
-  --dts-label-large-font-family: Roboto;
-  --dts-label-large-font-weight: Regular;
-  --dts-label-large-line-height: 24px;
-  --dts-label-large-font-size: 16px;
-  --dts-label-large-letter-spacing: 0%;
-  --dts-label-large-paragraph-spacing: 0;
-  --dts-label-large-paragraph-indent: 0px;
-  --dts-label-large-text-case: none;
-  --dts-label-large-text-decoration: none;
-  --dts-heading-xxs-font-family: Roboto;
-  --dts-heading-xxs-font-weight: Regular;
-  --dts-heading-xxs-line-height: 24px;
-  --dts-heading-xxs-font-size: 16px;
-  --dts-heading-xxs-letter-spacing: 0%;
-  --dts-heading-xxs-paragraph-spacing: 0;
-  --dts-heading-xxs-paragraph-indent: 0px;
-  --dts-heading-xxs-text-case: none;
-  --dts-heading-xxs-text-decoration: none;
-  --dts-heading-xs-font-family: Roboto;
-  --dts-heading-xs-font-weight: Regular;
-  --dts-heading-xs-line-height: 28px;
-  --dts-heading-xs-font-size: 20px;
-  --dts-heading-xs-letter-spacing: 0%;
-  --dts-heading-xs-paragraph-spacing: 0;
-  --dts-heading-xs-paragraph-indent: 0px;
-  --dts-heading-xs-text-case: none;
-  --dts-heading-xs-text-decoration: none;
-  --dts-heading-sm-font-family: Roboto;
-  --dts-heading-sm-font-weight: Regular;
-  --dts-heading-sm-line-height: 32px;
-  --dts-heading-sm-font-size: 24px;
-  --dts-heading-sm-letter-spacing: 0%;
-  --dts-heading-sm-paragraph-spacing: 0;
-  --dts-heading-sm-paragraph-indent: 0px;
-  --dts-heading-sm-text-case: none;
-  --dts-heading-sm-text-decoration: none;
-  --dts-heading-md-font-family: Roboto;
-  --dts-heading-md-font-weight: Regular;
-  --dts-heading-md-line-height: 36px;
-  --dts-heading-md-font-size: 28px;
-  --dts-heading-md-letter-spacing: 0%;
-  --dts-heading-md-paragraph-spacing: 0;
-  --dts-heading-md-paragraph-indent: 0px;
-  --dts-heading-md-text-case: none;
-  --dts-heading-md-text-decoration: none;
-  --dts-heading-lg-font-family: Roboto;
-  --dts-heading-lg-font-weight: Regular;
-  --dts-heading-lg-line-height: 40px;
-  --dts-heading-lg-font-size: 32px;
-  --dts-heading-lg-letter-spacing: 0%;
-  --dts-heading-lg-paragraph-spacing: 0;
-  --dts-heading-lg-paragraph-indent: 0px;
-  --dts-heading-lg-text-case: none;
-  --dts-heading-lg-text-decoration: none;
-  --dts-heading-xl-font-family: Roboto;
-  --dts-heading-xl-font-weight: Regular;
-  --dts-heading-xl-line-height: 44px;
-  --dts-heading-xl-font-size: 36px;
-  --dts-heading-xl-letter-spacing: 0%;
-  --dts-heading-xl-paragraph-spacing: 0;
-  --dts-heading-xl-paragraph-indent: 0px;
-  --dts-heading-xl-text-case: none;
-  --dts-heading-xl-text-decoration: none;
-  --dts-heading-xxl-font-family: Roboto;
-  --dts-heading-xxl-font-weight: Regular;
-  --dts-heading-xxl-line-height: 48px;
-  --dts-heading-xxl-font-size: 40px;
-  --dts-heading-xxl-letter-spacing: 0%;
-  --dts-heading-xxl-paragraph-spacing: 0;
-  --dts-heading-xxl-paragraph-indent: 0px;
-  --dts-heading-xxl-text-case: none;
-  --dts-heading-xxl-text-decoration: none;
+  
   --radius-null: 0;
-  --radius-xxs: 2px;
   --radius-xs: 4px;
   --radius-sm: 8px;
-  --padding-null: 0;
-  --padding-lg: 16px;
+
+  --spacing-null: 0;
+  --spacing-three-xs: 8px;
+  --spacing-two-xs: 12px;
+  --spacing-xxs: 16px;
   --border-null-width: 0;
-  --padding-xl: 24px;
-  --line-height-large: 24px;
+  --spacing-xs: 20px;
+  --spacing-sm: 24px;
+  --spacing-md: 28px;
+  --spacing-lg: 32px;
+
   --line-height-xxs: 24px;
   --line-height-xs: 28px;
   --line-height-sm: 32px;
@@ -113,9 +40,11 @@
   --line-height-lg: 40px;
   --line-height-xl: 44px;
   --line-height-xxl: 48px;
+
   --font-weight-regular: Regular;
-  --font-weight-medium: Regular;
-  --font-size-large: 16px;
+  --font-weight-medium: Medium;
+  --font-weight-bold: Bold;
+
   --font-size-xxs: 16px;
   --font-size-xs: 20px;
   --font-size-sm: 24px;
@@ -123,11 +52,109 @@
   --font-size-lg: 32px;
   --font-size-xl: 36px;
   --font-size-xxl: 40px;
+
   --letter-spacing-null: 0%;
   --paragraph-spacing-null: 0;
   --text-case-none: none;
   --text-decoration-none: none;
-  --paragraph-indent-null: 0px;
-  --font-families-roboto: Roboto;
+  --paragraph-indent-null: 0;
+  --font-families-default: Roboto;
+
+  --null: 0;
+  --four-xs: 4px;
+  --three-xs: 8px;
+  --two-xs: 12px;
+  --xxs: 16px;
+  --xs: 20px;
+  --sm: 24px;
+  --md: 28px;
+  --lg: 32px;
+  --xl: 36px;
+  --xxl: 40px;
+  --two-xl: 44px;
+  --three-xl: 48px;
+  --four-xl: 52px;
+  --five-xl: 56px;
+
+  --body-large-font-family: Roboto;
+  --body-large-font-weight: Regular;
+  --body-large-font-size: 16px;
+  --body-large-line-height: 24px;
+  --body-large-letter-spacing: 0%;
+  --body-large-paragraph-spacing: 0;
+  --body-large-text-decoration: none;
+  --body-large-text-case: none;
+
+  --label-large-font-family: Roboto;
+  --label-large-font-weight: Regular;
+  --label-large-font-size: 16px;
+  --label-large-line-height: 24px;
+  --label-large-letter-spacing: 0%;
+  --label-large-paragraph-spacing: 0;
+  --label-large-text-decoration: none;
+  --label-large-text-case: none;
+
+  --heading-xxs-font-family: Roboto;
+  --heading-xxs-font-weight: Regular;
+  --heading-xxs-font-size: 16px;
+  --heading-xxs-line-height: 24px;
+  --heading-xxs-letter-spacing: 0%;
+  --heading-xxs-paragraph-spacing: 0;
+  --heading-xxs-text-decoration: none;
+  --heading-xxs-text-case: none;
+
+  --heading-xs-font-family: Roboto;
+  --heading-xs-font-weight: Regular;
+  --heading-xs-font-size: 20px;
+  --heading-xs-line-height: 28px;
+  --heading-xs-letter-spacing: 0%;
+  --heading-xs-paragraph-spacing: 0;
+  --heading-xs-text-decoration: none;
+  --heading-xs-text-case: none;
+
+  --heading-sm-font-family: Roboto;
+  --heading-sm-font-weight: Regular;
+  --heading-sm-font-size: 24px;
+  --heading-sm-line-height: 32px;
+  --heading-sm-letter-spacing: 0%;
+  --heading-sm-paragraph-spacing: 0;
+  --heading-sm-text-decoration: none;
+  --heading-sm-text-case: none;
+
+  --heading-md-font-family: Roboto;
+  --heading-md-font-weight: Regular;
+  --heading-md-font-size: 28px;
+  --heading-md-line-height: 36px;
+  --heading-md-letter-spacing: 0%;
+  --heading-md-paragraph-spacing: 0;
+  --heading-md-text-decoration: none;
+  --heading-md-text-case: none;
+
+  --heading-lg-font-family: Roboto;
+  --heading-lg-font-weight: Regular;
+  --heading-lg-font-size: 32px;
+  --heading-lg-line-height: 40px;
+  --heading-lg-letter-spacing: 0%;
+  --heading-lg-paragraph-spacing: 0;
+  --heading-lg-text-decoration: none;
+  --heading-lg-text-case: none;
+
+  --heading-xl-font-family: Roboto;
+  --heading-xl-font-weight: Regular;
+  --heading-xl-font-size: 36px;
+  --heading-xl-line-height: 44px;
+  --heading-xl-letter-spacing: 0%;
+  --heading-xl-paragraph-spacing: 0;
+  --heading-xl-text-decoration: none;
+  --heading-xl-text-case: none;
+
+  --heading-xxl-font-family: Roboto;
+  --heading-xxl-font-weight: Regular;
+  --heading-xxl-font-size: 40px;
+  --heading-xxl-line-height: 48px;
+  --heading-xxl-letter-spacing: 0%;
+  --heading-xxl-paragraph-spacing: 0;
+  --heading-xxl-text-decoration: none;
+  --heading-xxl-text-case: none;
   --token-set-order-0: dts;
 }

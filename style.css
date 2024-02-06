@@ -1,47 +1,93 @@
 body {
-  background-color: var(--dts-sys-surface-container);
+  background-color: var(--dts-sys-surface);
   color: var(--dts-sys-on-surface);
-  font-family: var(--dts-body-large-font-family);
-  font-weight: var(--dts-body-large-font-weight);
+  font-family: var(--font-families-default);
+  font-weight: var(--font-weight-regular);
   font-size: var(--dts-body-large-font-size);
   line-height: var(--dts-body-large-line-height);
+  padding: var(--spacing-null);
+  margin: var(--spacing-three-xs);
+}
+
+main {
+  margin: var(--spacing-three-xs);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: var(--spacing-three-xs);
+  margin-bottom: var(--spacing-three-xs);
+  margin-left: var(--spacing-null);
+  margin-right: var(--spacing-null);
 }
 
 h1 {
-  color: var(--dts-sys-on-surface);
-  font-family: var(--dts-body-large-font-family);
-  font-weight: var(--dts-body-large-font-weight);
-  font-size: var(--dts-body-large-font-size);
-  line-height: var(--dts-body-large-line-height);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xxl);
+  line-height: var(--line-height-xxl);
+}
+
+h2 {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+}
+
+h3 {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+}
+
+h4 {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+}
+
+h5 {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+}
+
+h6 {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xs);
 }
 
 p {
-  color: var(--dts-sys-on-surface);
-  font-family: var(--dts-body-large-font-family);
-  font-weight: var(--dts-body-large-font-weight);
-  font-size: var(--dts-body-large-font-size);
-  line-height: var(--dts-body-large-line-height);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xxs);
+  line-height: var(--line-height-xxs);
+  margin: var(--spacing-null);
 }
 
 label {
   display: block;
-  font-family: var(--dts-body-large-font-family);
-  font-weight: var(--dts-body-large-font-weight);
-  font-size: var(--dts-body-large-font-size);
-  line-height: var(--dts-body-large-line-height);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xxs);
+  line-height: var(--line-height-xxs);
 }
 
 button {
   border-radius: var(--radius-sm);
   border: var(--border-null-width);
-  padding: var(--padding-null);
+  padding: var(--spacing-null);
+
+  width: 100%;
 }
 
 button label {
-  padding-left: var(--padding-xl);
-  padding-right: var(--padding-xl);
-  padding-top: var(--padding-lg);
-  padding-bottom: var(--padding-lg);
+  padding-left: var(--spacing-sm);
+  padding-right: var(--spacing-sm);
+  padding-top: var(--spacing-xxs);
+  padding-bottom: var(--spacing-xxs);
   border-radius: var(--radius-sm);
   border: var(--border-null-width);
 }
@@ -74,4 +120,131 @@ button label:active{
 #danger {
   background-color: var(--dts-sys-danger);
   color: var(--dts-sys-on-danger);
+}
+
+
+.card-title {
+  padding-bottom: var(--spacing-xxs);
+}
+
+.delivery {
+  padding-bottom: var(--spacing-xxs);
+}
+
+.description {
+  padding-bottom: var(--spacing-xxs);
+}
+
+.default-state {
+  color: var(--dts-sys-on-surface);
+  font-family: var(--font-families-default);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--dts-body-large-font-size);
+  line-height: var(--dts-body-large-line-height);
+  display: inline-block;
+}
+
+.success-state {
+  color: var(--dts-sys-success);
+}
+
+.warning-state {
+  color: var(--dts-sys-warning);
+}
+
+.danger-state {
+  color: var(--dts-sys-danger);
+}
+
+
+
+
+
+
+.box {
+  display: grid;
+}
+
+.box .item {
+  background-color: var(--dts-sys-surface-container);
+  padding: var(--spacing-xxs);
+}
+
+.box .item section {
+  background-color: var(--dts-sys-surface);
+  padding: var(--spacing-xxs);
+  border-radius: var(--radius-sm);
+}
+
+
+.box-twelwe {
+  grid: auto-flow auto / repeat(12, 8.333%);
+}
+
+.box-eleven {
+  grid: auto-flow auto / repeat(11, 9.09%);
+}
+
+.box-ten {
+  grid: auto-flow auto / repeat(10, 10%);
+}
+
+.box-nine {
+  grid: auto-flow auto / repeat(9, 11.111%);
+}
+
+.box-eight {
+  grid: auto-flow auto / repeat(8, 12.5%);
+}
+
+.box-seven {
+  grid: auto-flow auto / repeat(7, 14.285%);
+}
+
+.box-six {
+  grid: auto-flow auto / repeat(6, 16.666%);
+}
+
+.box-five {
+  grid: auto-flow auto / repeat(5, 20%);
+}
+
+.box-four {
+  grid: auto-flow auto / repeat(4, 25%);
+}
+
+.box-three {
+  grid: auto-flow auto / repeat(3, 33.333%);
+}
+
+.box-two {
+  grid: auto-flow auto / repeat(2, 50%);
+}
+
+.box-one {
+  grid: auto-flow auto / repeat(1, 100%);
+}
+
+
+.count {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+}
+
+.unit {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xxs);
+  line-height: var(--line-height-xxs);
+  color: var(--dts-sys-on-surface-variant);
+}
+
+
+.content p {
+  margin: var(--spacing-null);
+}
+
+
+.card-container header, .card-container footer, .card-container .contents, .card-container .preview-container, .description-container {
+  padding-bottom: var(--spacing-xxs);
 }
