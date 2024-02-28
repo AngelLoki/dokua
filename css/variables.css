@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Feb 2024 08:16:51 GMT
+ * Generated on Wed, 28 Feb 2024 12:36:50 GMT
  */
 
 :root {
@@ -8,31 +8,4 @@
   --dh-color-system-on-primary: #FFFFFF;
   --dh-color-system-primary-container: #E8F1FA;
   --dh-color-system-on-primary-container: #05172A;
-  --dh-color-system-primary-fixed: #75ADE4;
-  --dh-color-system-on-primary-fixed: #0A2F54;
-  --dh-color-system-primary-fixed-dim: #F9F9FF;
-  --dh-color-system-on-primary-fixed-variant: #1A77D2;
-  --dh-color-system-shadow: #05172A;
-  --dh-color-system-link-variant-highest: #05172A;
-  --dh-color-system-link: #1A77D2;
-  --dh-color-system-link-variant-lowest: #E8F1FA;
-  --dh-color-system-background: #FFFFFF;
-  --dh-color-system-on-background: #000000;
-  --dh-color-system-surface-dim: #E3E3E4;
-  --dh-color-system-surface: #FFFFFF;
-  --dh-color-system-surface-bright: #FAFAFA;
-  --dh-color-system-surface-container-lowest: #FCFCFC;
-  --dh-color-system-surface-container-low: #F7F7F7;
-  --dh-color-system-surface-container: #F5F5F5;
-  --dh-color-system-surface-container-high: #F0F0F0;
-  --dh-color-system-surface-container-highest: #EBEBEB;
-  --dh-color-system-on-surface: #171718;
-  --dh-color-system-on-surface-variant: #5E5F61;
-  --dh-color-system-on-surface-variant-low: #919294;
-  --dh-color-system-inverse-surface: #171718;
-  --dh-color-system-inverse-surface-variant: #464749;
-  --dh-color-system-inverse-on-surface: #FAFAFA;
-  --dh-color-system-outline: #76777A;
-  --dh-color-system-outline-variant: #E3E3E4;
-  --token-set-order-0: global;
 }
