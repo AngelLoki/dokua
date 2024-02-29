@@ -1,46 +1,51 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Feb 2024 12:58:20 GMT
+ * Generated on Thu, 29 Feb 2024 08:41:34 GMT
  */
 
 :root {
+  --dh-color-main-white: #FFFFFF;
+  --dh-color-main-brand: #0096FF;
   --dh-color-system-primary: #1A77D2;
   --dh-color-system-on-primary: #FFFFFF;
   --dh-color-system-primary-container: #E8F1FA;
   --dh-color-system-on-primary-container: #05172A;
   --dh-color-system-primary-fixed: #75ADE4;
   --dh-color-system-on-primary-fixed: #0A2F54;
-  --dh-color-system-primary-fixed-dim: #F9F9FF;
+  --dh-color-system-primary-fixed-dim: #F8FBFE;
   --dh-color-system-on-primary-fixed-variant: #1A77D2;
-  --dh-color-system-shadow: #05172A;
-  --dh-color-system-link-variant-highest: #05172A;
+  --dh-color-system-shadow: #05172a;
   --dh-color-system-link: #1A77D2;
+  --dh-color-system-link-variant-highest: #05172A;
   --dh-color-system-link-variant-lowest: #E8F1FA;
   --dh-color-system-background: #FFFFFF;
   --dh-color-system-on-background: #000000;
   --dh-color-system-surface-dim: #E3E3E4;
   --dh-color-system-surface: #FFFFFF;
   --dh-color-system-surface-bright: #FAFAFA;
+  --dh-color-system-on-surface: #171718;
   --dh-color-system-surface-container-lowest: #FCFCFC;
   --dh-color-system-surface-container-low: #F7F7F7;
   --dh-color-system-surface-container: #F5F5F5;
   --dh-color-system-surface-container-high: #F0F0F0;
   --dh-color-system-surface-container-highest: #EBEBEB;
-  --dh-color-system-on-surface: #171718;
-  --dh-color-system-on-surface-variant: #5E5F61;
+  --dh-color-system-on-surface-variant: #5D5E62;
   --dh-color-system-on-surface-variant-low: #919294;
   --dh-color-system-inverse-surface: #171718;
-  --dh-color-system-inverse-surface-variant: #464749;
   --dh-color-system-inverse-on-surface: #FAFAFA;
+  --dh-color-system-inverse-surface-variant: #464749;
   --dh-color-system-outline: #76777A;
   --dh-color-system-outline-variant: #E3E3E4;
   --dh-color-system-outline-opacity-sm: #00000014;
-  --dh-color-system-outline-opacity-md: #00000029;
-  --dh-color-system-outline-opacity-lg: #0000003d;
+  --dh-color-system-outline-opacity-md: #0000001f;
+  --dh-color-system-outline-opacity-lg: #00000029;
+  --dh-color-system-state-opacity-sm: #00000014;
+  --dh-color-system-state-opacity-md: #0000001f;
+  --dh-color-system-state-opacity-lg: #00000029;
   --dh-color-system-success: #008D46;
   --dh-color-system-on-success: #FFFFFF;
   --dh-color-system-success-container: #CCE8DA;
-  --dh-color-system-on-success-container: #001C03;
+  --dh-color-system-on-success-container: #001C0E;
   --dh-color-system-success-fixed: #66BA90;
   --dh-color-system-on-success-fixed: #00381C;
   --dh-color-system-success-fixed-dim: #F7FCF9;
@@ -68,7 +73,7 @@
   --dh-color-system-king-fixed: #AC75E4;
   --dh-color-system-on-king-fixed: #2E0A54;
   --dh-color-system-king-fixed-dim: #FBF8FE;
-  --dh-color-system-on-king-fixed-variant: #751Ad2;
+  --dh-color-system-on-king-fixed-variant: #751AD2;
   --dh-color-system-gold: #FFED80;
   --dh-color-system-on-gold: #000000;
   --dh-color-system-gold-container: #FFFBE5;
@@ -92,10 +97,10 @@
   --dh-color-system-on-business-container: #330E06;
   --dh-color-system-business-fixed: #FF9178;
   --dh-color-system-on-business-fixed: #661C0C;
-  --dh-color-system-business-fixed-dim: #FFFAF8;
+  --dh-color-system-business-fixed-dim: #FFF9F8;
   --dh-color-system-on-business-fixed-variant: #FF481F;
   --dh-color-system-outline-business: #CC3918;
-  --dh-color-system-lawn: #3DD119;
+  --dh-color-system-lawn: #19D15E;
   --dh-color-system-on-lawn: #FFFFFF;
   --dh-color-system-lawn-container: #D8F5D1;
   --dh-color-system-on-lawn-container: #0C2905;
@@ -106,7 +111,31 @@
   --dh-color-system-outline-lawn: #30A714;
   --dh-color-system-scrim: #07233fa3;
   --dh-color-system-scrim-variant: #07233f66;
-  --dh-color-system-state-opacity-sm: #00000014;
-  --dh-color-system-state-opacity-md: #00000029;
-  --dh-color-system-state-opacity-lg: #0000003d;
+  --dh-color-system-primary-opacity-sm: #1a77d214;
+  --dh-color-system-primary-opacity-md: #1a77d21f;
+  --dh-color-system-primary-opacity-lg: #1a77d229;
+  --dh-color-system-success-opacity-sm: #008d4614;
+  --dh-color-system-success-opacity-md: #008d461f;
+  --dh-color-system-success-opacity-lg: #008d4629;
+  --dh-color-system-warning-opacity-sm: #e5900014;
+  --dh-color-system-warning-opacity-md: #e590001f;
+  --dh-color-system-warning-opacity-lg: #e5900029;
+  --dh-color-system-danger-opacity-sm: #d21a1b14;
+  --dh-color-system-danger-opacity-md: #d21a1b1f;
+  --dh-color-system-danger-opacity-lg: #d21a1b29;
+  --dh-color-system-king-opacity-sm: #751ad214;
+  --dh-color-system-king-opacity-md: #751ad21f;
+  --dh-color-system-king-opacity-lg: #751ad229;
+  --dh-color-system-gold-opacity-sm: #ffed8014;
+  --dh-color-system-gold-opacity-md: #ffed801f;
+  --dh-color-system-gold-opacity-lg: #ffed8029;
+  --dh-color-system-rating-opacity-sm: #ff980014;
+  --dh-color-system-rating-opacity-md: #ff98001f;
+  --dh-color-system-rating-opacity-lg: #ff980029;
+  --dh-color-system-business-opacity-sm: #ff481f14;
+  --dh-color-system-business-opacity-md: #ff481f1f;
+  --dh-color-system-business-opacity-lg: #ff481f29;
+  --dh-color-system-lawn-opacity-sm: #3dd11914;
+  --dh-color-system-lawn-opacity-md: #3dd1191f;
+  --dh-color-system-lawn-opacity-lg: #3dd11929;
 }

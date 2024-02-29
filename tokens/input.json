@@ -1,5 +1,15 @@
 {
   "dh-color": {
+    "main": {
+      "white": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "brand": {
+        "value": "#0096FF",
+        "type": "color"
+      }
+    },
     "system": {
       "primary": {
         "value": "#1A77D2",
@@ -26,7 +36,7 @@
         "type": "color"
       },
       "primary-fixed-dim": {
-        "value": "#F9F9FF",
+        "value": "#F8FBFE",
         "type": "color"
       },
       "on-primary-fixed-variant": {
@@ -34,15 +44,15 @@
         "type": "color"
       },
       "shadow": {
-        "value": "#05172A",
-        "type": "color"
-      },
-      "link-variant-highest": {
-        "value": "#05172A",
+        "value": "#05172a",
         "type": "color"
       },
       "link": {
         "value": "#1A77D2",
+        "type": "color"
+      },
+      "link-variant-highest": {
+        "value": "#05172A",
         "type": "color"
       },
       "link-variant-lowest": {
@@ -69,6 +79,10 @@
         "value": "#FAFAFA",
         "type": "color"
       },
+      "on-surface": {
+        "value": "#171718",
+        "type": "color"
+      },
       "surface-container-lowest": {
         "value": "#FCFCFC",
         "type": "color"
@@ -89,12 +103,8 @@
         "value": "#EBEBEB",
         "type": "color"
       },
-      "on-surface": {
-        "value": "#171718",
-        "type": "color"
-      },
       "on-surface-variant": {
-        "value": "#5E5F61",
+        "value": "#5D5E62",
         "type": "color"
       },
       "on-surface-variant-low": {
@@ -105,12 +115,12 @@
         "value": "#171718",
         "type": "color"
       },
-      "inverse-surface-variant": {
-        "value": "#464749",
-        "type": "color"
-      },
       "inverse-on-surface": {
         "value": "#FAFAFA",
+        "type": "color"
+      },
+      "inverse-surface-variant": {
+        "value": "#464749",
         "type": "color"
       },
       "outline": {
@@ -126,11 +136,23 @@
         "type": "color"
       },
       "outline-opacity-md": {
-        "value": "#00000029",
+        "value": "#0000001f",
         "type": "color"
       },
       "outline-opacity-lg": {
-        "value": "#0000003d",
+        "value": "#00000029",
+        "type": "color"
+      },
+      "state-opacity-sm": {
+        "value": "#00000014",
+        "type": "color"
+      },
+      "state-opacity-md": {
+        "value": "#0000001f",
+        "type": "color"
+      },
+      "state-opacity-lg": {
+        "value": "#00000029",
         "type": "color"
       },
       "success": {
@@ -146,7 +168,7 @@
         "type": "color"
       },
       "on-success-container": {
-        "value": "#001C03",
+        "value": "#001C0E",
         "type": "color"
       },
       "success-fixed": {
@@ -258,7 +280,7 @@
         "type": "color"
       },
       "on-king-fixed-variant": {
-        "value": "#751Ad2",
+        "value": "#751AD2",
         "type": "color"
       },
       "gold": {
@@ -354,7 +376,7 @@
         "type": "color"
       },
       "business-fixed-dim": {
-        "value": "#FFFAF8",
+        "value": "#FFF9F8",
         "type": "color"
       },
       "on-business-fixed-variant": {
@@ -366,7 +388,7 @@
         "type": "color"
       },
       "lawn": {
-        "value": "#3DD119",
+        "value": "#19D15E",
         "type": "color"
       },
       "on-lawn": {
@@ -409,16 +431,112 @@
         "value": "#07233f66",
         "type": "color"
       },
-      "state-opacity-sm": {
-        "value": "#00000014",
+      "primary-opacity-sm": {
+        "value": "#1a77d214",
         "type": "color"
       },
-      "state-opacity-md": {
-        "value": "#00000029",
+      "primary-opacity-md": {
+        "value": "#1a77d21f",
         "type": "color"
       },
-      "state-opacity-lg": {
-        "value": "#0000003d",
+      "primary-opacity-lg": {
+        "value": "#1a77d229",
+        "type": "color"
+      },
+      "success-opacity-sm": {
+        "value": "#008d4614",
+        "type": "color"
+      },
+      "success-opacity-md": {
+        "value": "#008d461f",
+        "type": "color"
+      },
+      "success-opacity-lg": {
+        "value": "#008d4629",
+        "type": "color"
+      },
+      "warning-opacity-sm": {
+        "value": "#e5900014",
+        "type": "color"
+      },
+      "warning-opacity-md": {
+        "value": "#e590001f",
+        "type": "color"
+      },
+      "warning-opacity-lg": {
+        "value": "#e5900029",
+        "type": "color"
+      },
+      "danger-opacity-sm": {
+        "value": "#d21a1b14",
+        "type": "color"
+      },
+      "danger-opacity-md": {
+        "value": "#d21a1b1f",
+        "type": "color"
+      },
+      "danger-opacity-lg": {
+        "value": "#d21a1b29",
+        "type": "color"
+      },
+      "king-opacity-sm": {
+        "value": "#751ad214",
+        "type": "color"
+      },
+      "king-opacity-md": {
+        "value": "#751ad21f",
+        "type": "color"
+      },
+      "king-opacity-lg": {
+        "value": "#751ad229",
+        "type": "color"
+      },
+      "gold-opacity-sm": {
+        "value": "#ffed8014",
+        "type": "color"
+      },
+      "gold-opacity-md": {
+        "value": "#ffed801f",
+        "type": "color"
+      },
+      "gold-opacity-lg": {
+        "value": "#ffed8029",
+        "type": "color"
+      },
+      "rating-opacity-sm": {
+        "value": "#ff980014",
+        "type": "color"
+      },
+      "rating-opacity-md": {
+        "value": "#ff98001f",
+        "type": "color"
+      },
+      "rating-opacity-lg": {
+        "value": "#ff980029",
+        "type": "color"
+      },
+      "business-opacity-sm": {
+        "value": "#ff481f14",
+        "type": "color"
+      },
+      "business-opacity-md": {
+        "value": "#ff481f1f",
+        "type": "color"
+      },
+      "business-opacity-lg": {
+        "value": "#ff481f29",
+        "type": "color"
+      },
+      "lawn-opacity-sm": {
+        "value": "#3dd11914",
+        "type": "color"
+      },
+      "lawn-opacity-md": {
+        "value": "#3dd1191f",
+        "type": "color"
+      },
+      "lawn-opacity-lg": {
+        "value": "#3dd11929",
         "type": "color"
       }
     }
