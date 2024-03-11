@@ -1,6 +1,6 @@
 body {
-  background-color: var(--dts-sys-surface);
-  color: var(--dts-sys-on-surface);
+  background-color: var(--dh-color-system-surface);
+  color: var(--dh-color-system-on-surface);
   font-family: var(--font-families-default);
   font-weight: var(--font-weight-regular);
   font-size: var(--dts-body-large-font-size);
@@ -93,33 +93,33 @@ button label {
 }
 
 button label:hover{
-  background-color: var(--dts-state-layers-hover-sm);
+  background-color: var(--dh-color-system-state-opacity-sm);
 }
 
 button label:active{
-  background-color: var(--dts-state-layers-active-md);
+  background-color: var(--dh-color-system-state-opacity-md);
 }
 
 
 
 #primary {
-  background-color: var(--dts-sys-primary);
-  color: var(--dts-sys-on-primary);
+  background-color: var(--dh-color-system-primary);
+  color: var(--dh-color-system-on-primary);
 }
 
 #success {
-  background-color: var(--dts-sys-success);
-  color: var(--dts-sys-on-success);
+  background-color: var(--dh-color-system-success);
+  color: var(--dh-color-system-on-success);
 }
 
 #warning {
-  background-color: var(--dts-sys-warning);
-  color: var(--dts-sys-on-warning);
+  background-color: var(--dh-color-system-warning);
+  color: var(--dh-color-system-on-warning);
 }
 
 #danger {
-  background-color: var(--dts-sys-danger);
-  color: var(--dts-sys-on-danger);
+  background-color: var(--dh-color-system-danger);
+  color: var(--dh-color-system-on-danger);
 }
 
 
@@ -136,7 +136,7 @@ button label:active{
 }
 
 .default-state {
-  color: var(--dts-sys-on-surface);
+  color: var(--dh-color-system-primary);
   font-family: var(--font-families-default);
   font-weight: var(--font-weight-regular);
   font-size: var(--dts-body-large-font-size);
@@ -145,15 +145,15 @@ button label:active{
 }
 
 .success-state {
-  color: var(--dts-sys-success);
+  color: var(--dh-color-system-success);
 }
 
 .warning-state {
-  color: var(--dts-sys-warning);
+  color: var(--dh-color-system-warning);
 }
 
 .danger-state {
-  color: var(--dts-sys-danger);
+  color: var(--dh-color-system-danger);
 }
 
 
@@ -166,12 +166,12 @@ button label:active{
 }
 
 .box .item {
-  background-color: var(--dts-sys-surface-container);
+  background-color: var(--dh-color-system-surface-container);
   padding: var(--spacing-xxs);
 }
 
 .box .item section {
-  background-color: var(--dts-sys-surface);
+  background-color: var(--dh-color-system-surface);
   padding: var(--spacing-xxs);
   border-radius: var(--radius-sm);
 }
@@ -236,7 +236,7 @@ button label:active{
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-xxs);
   line-height: var(--line-height-xxs);
-  color: var(--dts-sys-on-surface-variant);
+  color: var(--dh-color-system-on-surface-variant);
 }
 
 
